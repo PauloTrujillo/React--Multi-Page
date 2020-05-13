@@ -1,15 +1,13 @@
 import React from "react";
 
-export default function Example1() {
+export default function  Example1() {
   return (
     <div>
-      <Titulo />
-
-      <div id="mountNode">
+      <div>
         <DOMWay />
       </div>
 
-      <div id="mountNode2">
+      <div>
         <ReactWay />
       </div>
     </div>
@@ -37,9 +35,4 @@ function ReactWay() {
   );
 }
 
-/**
- * Retorna titulo del programa
- */
-function Titulo() {
-  return <p>Learning React</p>;
-}
+
