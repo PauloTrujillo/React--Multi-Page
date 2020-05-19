@@ -6,6 +6,7 @@ import Error from "./components/Error";
 import Navigation from "./components/Navigation";
 import Example1 from "./components/Example1";
 import Example2 from "./components/Example2";
+import ObjectLiterals from "./components/ObjectLiterals";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path="/" component={Home} exact />
             <Route path="/Example1" component={Example1} />
             <Route path="/Example2" component={Example2} />
+            <Route path="/ObjectLiterals" component={ObjectLiterals} />
             <Route component={Error} />
           </Switch>
         </div>

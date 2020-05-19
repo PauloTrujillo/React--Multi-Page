@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function  Example1() {
+export default function Example1() {
   return (
     <div>
       <div>
@@ -34,5 +34,3 @@ function ReactWay() {
     React.createElement("pre", null, new Date().toLocaleTimeString())
   );
 }
-
-
